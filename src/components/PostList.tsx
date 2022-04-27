@@ -5,7 +5,7 @@ import { queryKeys } from "../react-query/contants";
 import PostItem from "./PostItem";
 
 interface PostResult {
-	id: number;
+	id: string;
 	title: string;
 }
 

@@ -4,14 +4,14 @@ import { axiosInstance } from "../axiosInstance";
 import { queryKeys } from "../react-query/contants";
 
 type CommentResult = {
-	post_id: number;
+	post_id: string;
 	comments: {
 		user: string;
 		comment: string;
 	}[];
 }[];
 
-function getComments(id: number) {
+function getComments(id: string) {
 	return async function () {
 		const { data } = await axiosInstance.get<CommentResult>(
 			`/comments?post_id=${id}`
@@ -21,7 +21,7 @@ function getComments(id: number) {
 }
 
 const PostItem: React.FC<{
-	id: number;
+	id: string;
 	title: string;
 }> = ({ title, id }) => {
 	const { data } = useQuery([queryKeys.comment, id], getComments(id));

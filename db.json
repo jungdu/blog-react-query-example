@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "first posts"
+    },
+    {
+      "id": 1,
+      "title": "second posts"
+    }
+  ],
+  "comments": [
+    {
+      "post_id": 1,
+      "comments": [
+        {
+          "user": "anonymous",
+          "comment": "good job!"
+        }
+      ]
+    }
+  ]
+}

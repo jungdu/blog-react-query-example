@@ -11,13 +11,22 @@
   ],
   "comments": [
     {
+      "id": "eQe487kcftjT-X0UDQmGI",
       "post_id": "sadfwefasdv",
-      "comments": [
-        {
-          "user": "anonymous",
-          "comment": "good job!"
-        }
-      ]
+      "user": "anonymous",
+      "comment": "첫 번째 댓글!"
+    },
+    {
+      "id": "J-2fNyzBFEAbkgzb4ALFB",
+      "post_id": "sadfwefasdv",
+      "user": "anonymous",
+      "comment": "굿굿"
+    },
+    {
+      "id": "fUsTBhFCFtQpWpp2YVUj8",
+      "post_id": "sadfwefasdv",
+      "user": "anonymous",
+      "comment": "good job!"
     }
   ]
 }

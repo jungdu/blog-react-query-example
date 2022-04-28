@@ -21,7 +21,7 @@ const Posts: React.FC = () => {
 		? data.map((post) => <PostItem id={post.id} title={post.title} />)
 		: [];
 
-	return <div className="flex">{posts}</div>;
+	return <div className="flex flex-wrap justify-center">{posts}</div>;
 };
 
 export default Posts;
